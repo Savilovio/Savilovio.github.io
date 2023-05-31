@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="https://cdn.discordapp.com/attachments/390471217393565709/1112654998740938803/-Bx9328WGpo.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Игорь Савилов</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Компьютерный мастер</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Москва, Россия</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>savilovio@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>88005553535</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Навыки</b></p>
+          <p>Ремонт компьютера</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+          </div>
+          <p>Фотография</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">
+              <div class="w3-center w3-text-white">70%</div>
+            </div>
+          </div>
+          <p>Общение</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:15%">15%</div>
+          </div>
+          <p>Программирование</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Языки</b></p>
+          <p>Русский</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Бурятский</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+          </div>
+          <p>Английский</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+<!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Опыт работы</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Ст. Сержант </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Сентябрь 2022 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>Был повышен за боевые заслуги.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Сержант </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Август 2022 - Сентябрь 2022</h6>
+          <p>Призван в армию на срочную службу</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Ремонтник компьтеров</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Май 2019 - Сентябрь 2020</h6>
+          <p>Чинил компьтеры </p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Образование</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>148 мотострелковая дивизия</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Продолжаю обучатся каждый день</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Курсы курсы по ремонту компьютеров</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - 2019</h6>
+          <p>Дядя Володя в течении года обучал меня азам ремонта компьтеров</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Средняя школа</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2019</h6>
+          <p>Обучался в средней общеобразовательной школе</p><br>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Найди меня..</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>
