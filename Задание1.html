@@ -2,54 +2,61 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Индивидуальное задание 1</title>
-    <script>
-        // Функция нахождения минимума двух чисел
-        function min(a, b) {
-            return a < b ? a : b;
-        }
-
-        // Функция нахождения максимума двух чисел
-        function max(a, b) {
-            return a > b ? a : b;
-        }
-
-        // Функция проверки на равенство двух чисел
-        function equal(a, b) {
-            return a === b;
-        }
-
-        // Функция для запуска примеров и вывода результатов на страницу
-        function runExamples() {
-            let results = document.getElementById('results');
-
-            // Примеры использования функций
-            let minResult1 = "min(3, 5) = " + min(3, 5);
-            let minResult2 = "min(10, 7) = " + min(10, 7);
-
-            let maxResult1 = "max(3, 5) = " + max(3, 5);
-            let maxResult2 = "max(10, 7) = " + max(10, 7);
-
-            let equalResult1 = "equal(3, 5) = " + equal(3, 5);
-            let equalResult2 = "equal(10, 10) = " + equal(10, 10);
-
-            // Вывод результатов на страницу
-            results.innerHTML += "<div class='result'>" + minResult1 + "</div>";
-            results.innerHTML += "<div class='result'>" + minResult2 + "</div>";
-
-            results.innerHTML += "<div class='result'>" + maxResult1 + "</div>";
-            results.innerHTML += "<div class='result'>" + maxResult2 + "</div>";
-
-            results.innerHTML += "<div class='result'>" + equalResult1 + "</div>";
-            results.innerHTML += "<div class='result'>" + equalResult2 + "</div>";
-        }
-
-        // Запуск примеров при загрузке страницы
-        window.onload = runExamples;
-    </script>
 </head>
 <body>
     <h1>Индивидуальное задание 1</h1>
-    <div id="results"></div>
+    <p>Выберите действие:</p>
+    <button onclick="findMin()">Найти минимум двух чисел</button>
+    <button onclick="findMax()">Найти максимум двух чисел</button>
+    <button onclick="checkEqual()">Проверить равенство двух чисел</button>
+
+    <script>
+        function findMin() {
+            let a = prompt("Введите первое число для нахождения минимума:", "0");
+            let b = prompt("Введите второе число для нахождения минимума:", "0");
+
+            a = parseFloat(a);
+            b = parseFloat(b);
+
+            if (isNaN(a) || isNaN(b)) {
+                alert("Введите допустимые числа!");
+                return;
+            }
+
+            alert("Минимум: " + (a < b ? a : b));
+        }
+
+        function findMax() {
+            let a = prompt("Введите первое число для нахождения максимума:", "0");
+            let b = prompt("Введите второе число для нахождения максимума:", "0");
+
+            a = parseFloat(a);
+            b = parseFloat(b);
+
+            if (isNaN(a) || isNaN(b)) {
+                alert("Введите допустимые числа!");
+                return;
+            }
+
+            alert("Максимум: " + (a > b ? a : b));
+        }
+
+        function checkEqual() {
+            let a = prompt("Введите первое число для проверки равенства:", "0");
+            let b = prompt("Введите второе число для проверки равенства:", "0");
+
+            a = parseFloat(a);
+            b = parseFloat(b);
+
+            if (isNaN(a) || isNaN(b)) {
+                alert("Введите допустимые числа!");
+                return;
+            }
+
+            alert("Числа равны: " + (a === b));
+        }
+    </script>
 </body>
 </html>
